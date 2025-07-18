@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+
+    int a= 5;
+    int b= 10;
+    int soma, div, sub, mult;
+
+    soma= a+b;
+    div= a/b;
+    sub= a-b;
+    mult= a*b;
+    
+    printf("A soma de %d+%d é igual: %d \n",a,b,soma);
+    printf("A divisão de %d/%d é igual: %d \n",a,b,div);
+    printf("A subtração de %d-%d é igual: %d \n",a,b,sub);
+    printf("A multiplicação de %d*%d é igual: %d \n",a,b,mult);
+
+    return 0;
+}
