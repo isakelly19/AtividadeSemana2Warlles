@@ -17,7 +17,7 @@ int main() {
         total_km += km;
         total_litros += litros;
 
-        printf("Entre com os litros consumidos (-1 para finalizar): ");
+        printf("Entre com os litros consumidos: ");
         scanf("%f", &litros);
     }
 
