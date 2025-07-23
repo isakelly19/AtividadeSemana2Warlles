@@ -12,7 +12,7 @@ int main() {
         scanf("%f", &km);
 
         float km_por_litro = km / litros;
-        printf("A taxa km/litro para esse tanque foi: %.6f\n\n", km_por_litro);
+        printf("A taxa km/litro para esse tanque foi: %f\n", km_por_litro);
 
         total_km += km;
         total_litros += litros;
